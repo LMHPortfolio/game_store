@@ -21,14 +21,14 @@
   <body>
     <main>
     <h1>Search by Title</h1>
-    <form method="post" action="form-handler.php">
+    <form method="post" action="search-handler.php">
         <label>Game Title:</label>
         <input type="text" placeholder="Enter Game Title" name="game-title">
         <button type="submit">Submit</button>
 
     </form>
     <form method="post" action="wishlist-add.php">
-        <button type="submit" id="add-wishlist">Add to Wishlist</button>
+      <button type="submit" id="add-wishlist">Add to Wishlist</button>
 
     </main>
 
