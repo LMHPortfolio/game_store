@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Game Store</title>
+    <title>Game Next</title>
     <link rel="icon" type="image/x-icon" href="">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,13 +21,13 @@
   <body>
     <main>
     <h1>Search by Title</h1>
-    <form method="post" action="search-handler.php">
+    <form method="POST" action="search-handler.php">
         <label>Game Title:</label>
         <input type="text" placeholder="Enter Game Title" name="game-title">
         <button type="submit">Submit</button>
 
     </form>
-    <form method="post" action="wishlist-add.php">
+    <form method="POST" action="wishlist-add.php">
       <button type="submit" id="add-wishlist">Add to Wishlist</button>
 
     </main>
